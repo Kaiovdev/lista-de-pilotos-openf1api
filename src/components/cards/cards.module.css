@@ -1,0 +1,114 @@
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+}
+
+.driver_card{
+    background-color: #EE0000;
+    color: #fff;
+    width: 280px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    border-radius: 50px;
+}
+
+.driver_img{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+
+.driver_card img{
+    margin-top: 10px;
+    margin-right: 2px;
+    width: 135px;
+    height: 140px;
+}
+
+.driver_card hr{
+    width: 200px;
+    height: 4px;
+    background-color: #fff;
+    border: none;
+
+}
+
+.driver_name{
+    font-size: 33px;
+}
+
+.driver_acronym{
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.driver_team{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.driver_number{
+    font-size: 45px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 4px;
+}
+
+.loading_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: cal(100vh - 72px);
+}
+
+.search_input{
+    width: 70rem;
+    height:60px;
+    border-radius: 100px;
+    outline: none;
+    border-style: none;
+    padding: 0 30px;
+    background-color: #D9D9D9;
+    color: #373737;
+    font-size: 14px;
+    transition: 0.5s;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.search_input:hover{
+    transform: scale(1.1);
+}
+
+.search_input:focus{
+    transform: scale(1.1);
+}
+
+main {
+    height: 80vh;
+}
+
+@media (max-width: 768px) {
+
+.search_input {
+    width: 35vh;
+    height:50px;
+    margin: 0 0;
+  }
+}
